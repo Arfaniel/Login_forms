@@ -1,1 +1,9 @@
 c:\users\pinta\documents\visual studio 2015\Projects\LoginForm_WinForm\LoginForm_WinForm\bin\Debug\LoginForm_WinForm.exe.config
+C:\Users\pinta\documents\visual studio 2015\Projects\LoginForm_WinForm\LoginForm_WinForm\bin\Debug\LoginForm_WinForm.exe
+C:\Users\pinta\documents\visual studio 2015\Projects\LoginForm_WinForm\LoginForm_WinForm\bin\Debug\LoginForm_WinForm.pdb
+C:\Users\pinta\documents\visual studio 2015\Projects\LoginForm_WinForm\LoginForm_WinForm\obj\Debug\LoginForm_WinForm.csprojResolveAssemblyReference.cache
+C:\Users\pinta\documents\visual studio 2015\Projects\LoginForm_WinForm\LoginForm_WinForm\obj\Debug\LoginForm_WinForm.LoginForm.resources
+C:\Users\pinta\documents\visual studio 2015\Projects\LoginForm_WinForm\LoginForm_WinForm\obj\Debug\LoginForm_WinForm.Properties.Resources.resources
+C:\Users\pinta\documents\visual studio 2015\Projects\LoginForm_WinForm\LoginForm_WinForm\obj\Debug\LoginForm_WinForm.csproj.GenerateResource.Cache
+C:\Users\pinta\documents\visual studio 2015\Projects\LoginForm_WinForm\LoginForm_WinForm\obj\Debug\LoginForm_WinForm.exe
+C:\Users\pinta\documents\visual studio 2015\Projects\LoginForm_WinForm\LoginForm_WinForm\obj\Debug\LoginForm_WinForm.pdb
