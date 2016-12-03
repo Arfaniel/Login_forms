@@ -57,8 +57,7 @@ namespace LoginForm_WinForm
                 if (isSuchLogin(LoginBox.Text)== true)
                 {
                     MessageBox.Show("Such user already exists");
-                    LoginBox.Text = "";
-                    PassBox.Text = "";
+                    clearBoxes();
                     return;
                 }
                 if (isSuchLogin(LoginBox.Text) == false)
@@ -71,12 +70,15 @@ namespace LoginForm_WinForm
                         sw.Write(PassBox.Text);
                     }
                     MessageBox.Show("Registration completed successfully");
-                    LoginBox.Text = "";
-                    PassBox.Text = "";
+                    clearBoxes();
                 }
             }
         }
-
+        private void clearBoxes()
+        {
+            LoginBox.Text = "";
+            PassBox.Text = "";
+        }
         private void PassBox_TextChanged(object sender, EventArgs e)
         {
             PassProgress.Value = PassBox.Text.Length;
@@ -91,7 +93,20 @@ namespace LoginForm_WinForm
             }
             else
             {
-
+                using (StreamReader reader = new StreamReader("users.txt"))
+                {
+                    string line;
+                    while ((line  = reader.ReadLine())!= null)
+                    {
+                        string[] logpass = line.Split(' ');
+                        if (logpass[0] == LoginBox.Text && logpass[1] == PassBox.Text)
+                        {
+                            MessageBox.Show("Login success");
+                            clearBoxes();
+                            break;
+                        }
+                    }
+                }
             }
         }
     }
